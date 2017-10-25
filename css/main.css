@@ -9,5 +9,28 @@ body {
 }
 
 .horizontal {
-    display: inline-block;
+    /*outline: 1px solid blue;*/
+    margin: 15px;
+}
+
+header {
+    margin-left: 15px;
+}
+
+img {
+    /*outline: 1px solid red;*/
+    margin-right: 40px;
+}
+
+div {
+    /*outline: 1px solid green;*/
+}
+
+span {
+    /*outline: 1px solid yellow;*/
+    font-weight: bold;
+}
+
+.position {
+    position: absolute;
 }
