@@ -1,16 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Arvo', serif;
 }
 
+.container {
+    width: 800px;
+    margin-right: auto;
+
+}
+
+figure {
+    width: 200px;
+    height: 235px;
+    display: inline-block;
+    position: relative;
+    margin: 10px;
+    
+}
+
+p {
+    position: absolute;
+    /*outline: 1px solid green;*/
+}
 .line {
     border: 4px solid black;
     width: 50px;
     border-radius: 20px;
-}
-
-.horizontal {
-    /*outline: 1px solid blue;*/
-    margin: 15px;
 }
 
 header {
@@ -18,19 +38,6 @@ header {
 }
 
 img {
-    /*outline: 1px solid red;*/
-    margin-right: 40px;
-}
-
-div {
-    /*outline: 1px solid green;*/
-}
-
-span {
-    /*outline: 1px solid yellow;*/
-    font-weight: bold;
-}
-
-.position {
-    position: absolute;
+    width: 200px;
+    height: 200px;
 }
